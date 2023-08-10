@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import { useEffect } from 'react'
+import { UseEffect } from 'react'
 
 export default function error({error,reset}) {
-  useEffect(()=>{
+  UseEffect(()=>{
     console.log(error)
   },[error])
   return (
